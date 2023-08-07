@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!224 &4092096 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 750927277376809705, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+  m_PrefabInstance: {fileID: 750927276610118743}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &16677067
 GameObject:
   m_ObjectHideFlags: 0
@@ -655,6 +660,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TweenView-2
       objectReference: {fileID: 0}
+    - target: {fileID: 384574114955148736, guid: da8f687955926a74389b98cb6d34eec1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 384574114955148737, guid: da8f687955926a74389b98cb6d34eec1, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -748,6 +757,74 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2037628661}
     m_Modifications:
+    - target: {fileID: 750927277996932964, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+      propertyPath: managedReferences[-2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 750927277996932964, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+      propertyPath: tweenGroup.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 750927277996932964, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+      propertyPath: tweenGroup.Array.data[0]
+      value: 4302331937812643841
+      objectReference: {fileID: 0}
+    - target: {fileID: 750927277996932964, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+      propertyPath: managedReferences[4302331937812643840]
+      value: CompositeTween CompositeTween.Node.DoRotateZMode
+      objectReference: {fileID: 0}
+    - target: {fileID: 750927277996932964, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+      propertyPath: managedReferences[4302331937812643841]
+      value: CompositeTween CompositeTween.Node.DoRotateZMode
+      objectReference: {fileID: 0}
+    - target: {fileID: 750927277996932964, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+      propertyPath: managedReferences[4302331937812643840].ease
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 750927277996932964, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+      propertyPath: managedReferences[4302331937812643841].ease
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 750927277996932964, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+      propertyPath: managedReferences[4302331937812643840].duration
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750927277996932964, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+      propertyPath: managedReferences[4302331937812643841].duration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 750927277996932964, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+      propertyPath: managedReferences[4302331937812643840].endZValue
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750927277996932964, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+      propertyPath: managedReferences[4302331937812643840].transform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 750927277996932964, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+      propertyPath: managedReferences[4302331937812643841].endZValue
+      value: 360
+      objectReference: {fileID: 0}
+    - target: {fileID: 750927277996932964, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+      propertyPath: managedReferences[4302331937812643841].transform
+      value: 
+      objectReference: {fileID: 4092096}
+    - target: {fileID: 750927277996932964, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+      propertyPath: managedReferences[4302331937812643840].insertTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750927277996932964, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+      propertyPath: managedReferences[4302331937812643840].rotateMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750927277996932964, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+      propertyPath: managedReferences[4302331937812643841].insertTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 750927277996932964, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+      propertyPath: managedReferences[4302331937812643841].rotateMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 750927277996932984, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -836,6 +913,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TweenView-0
       objectReference: {fileID: 0}
+    - target: {fileID: 750927277996932985, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5206e961fb98dc445ad2c3dff63eb71a, type: 3}
 --- !u!1001 &1046944947313087804
@@ -848,6 +929,10 @@ PrefabInstance:
     - target: {fileID: 1046944946229893900, guid: 27ac4b1d11e11144aab0b42931b97f0f, type: 3}
       propertyPath: m_Name
       value: TweenView-3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1046944946229893900, guid: 27ac4b1d11e11144aab0b42931b97f0f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1046944946229893901, guid: 27ac4b1d11e11144aab0b42931b97f0f, type: 3}
       propertyPath: m_Pivot.x
@@ -1030,6 +1115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TweenView-4
       objectReference: {fileID: 0}
+    - target: {fileID: 1655146635614549112, guid: 42718b7e89a757243a1408a9ff80388e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42718b7e89a757243a1408a9ff80388e, type: 3}
 --- !u!1001 &4967554652145677618
@@ -1042,6 +1131,10 @@ PrefabInstance:
     - target: {fileID: 4967554652556017442, guid: fc793994c70a4d34f9742f0c9c0e28b8, type: 3}
       propertyPath: m_Name
       value: TweenView-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4967554652556017442, guid: fc793994c70a4d34f9742f0c9c0e28b8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4967554652556017443, guid: fc793994c70a4d34f9742f0c9c0e28b8, type: 3}
       propertyPath: m_Pivot.x
