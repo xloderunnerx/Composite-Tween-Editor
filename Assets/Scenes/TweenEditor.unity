@@ -1115,10 +1115,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: TweenView-4
       objectReference: {fileID: 0}
-    - target: {fileID: 1655146635614549112, guid: 42718b7e89a757243a1408a9ff80388e, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42718b7e89a757243a1408a9ff80388e, type: 3}
 --- !u!1001 &4967554652145677618
